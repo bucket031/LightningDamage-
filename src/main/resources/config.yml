@@ -1,0 +1,5 @@
+# LightningDamage config.
+# Change it in-game with /lightning config, or here and then /lightning reload.
+# How much damage lightning does compared with normal.
+# 1.0 = normal (5 damage), 0 = lightning does no damage, 100 = 100 times normal.
+damage_multiplier: 1.0
