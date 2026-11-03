@@ -1,0 +1,14 @@
+name: LightningDamage
+version: '${project.version}'
+main: com.example.lightningdamage.LightningDamage
+api-version: '1.21'
+description: Change how much damage lightning strikes do, with an in-game config menu.
+commands:
+  lightning:
+    description: Configure lightning strike damage
+    usage: /<command> <config|set|reload>
+    permission: lightningdamage.admin
+permissions:
+  lightningdamage.admin:
+    description: Use /lightning and change the damage
+    default: op
